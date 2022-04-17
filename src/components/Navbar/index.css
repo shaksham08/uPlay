@@ -1,0 +1,22 @@
+a,
+a:link,
+a:active {
+  text-decoration: none;
+  color: var(--black-primary);
+}
+
+.nav {
+  min-height: 10vh;
+  box-shadow: 0px 4px 8px -8px var(--black-primary);
+  -webkit-box-shadow: 0px 4px 8px -8px var(--black-primary);
+  -moz-box-shadow: 0px 4px 8px -8px var(--black-primary);
+}
+
+.nav__link i {
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.nav__link:hover {
+  transform: none;
+}
